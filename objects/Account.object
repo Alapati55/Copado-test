@@ -340,6 +340,14 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>chcked_clone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Is_Chekced__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>chcked clone</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>takes_this__c</fullName>
         <externalId>false</externalId>
         <label>takes this</label>
