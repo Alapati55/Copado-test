@@ -5,6 +5,11 @@
         <field>Account.takes_this__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.test_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Advisor Standard</label>
 </PermissionSet>
