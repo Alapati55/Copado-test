@@ -272,6 +272,14 @@
         <fullName>IsCustomerPortal</fullName>
     </fields>
     <fields>
+        <fullName>Is_Chekced__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Chekced</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -338,6 +346,14 @@
     <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>chcked_clone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Is_Chekced__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>chcked clone</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>takes_this__c</fullName>
