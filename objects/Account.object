@@ -238,6 +238,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Account_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Account 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>AnnualRevenue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -328,6 +338,17 @@
     <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>takes_this__c</fullName>
+        <externalId>false</externalId>
+        <label>takes this</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>test_field__c</fullName>
