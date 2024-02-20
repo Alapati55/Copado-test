@@ -427,14 +427,6 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>North</controllingFieldValue>
-                <valueName>GA</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>North</controllingFieldValue>
-                <valueName>RJ</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>North</controllingFieldValue>
                 <valueName>MH</valueName>
             </valueSettings>
             <valueSettings>
