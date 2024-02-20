@@ -316,30 +316,6 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Region__c</fullName>
-        <externalId>false</externalId>
-        <label>Region</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>South</fullName>
-                    <default>false</default>
-                    <label>South</label>
-                </value>
-                <value>
-                    <fullName>North</fullName>
-                    <default>false</default>
-                    <label>North</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -354,94 +330,6 @@
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>State__c</fullName>
-        <externalId>false</externalId>
-        <label>State</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <controllingField>Region__c</controllingField>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>AP</fullName>
-                    <default>false</default>
-                    <label>AP</label>
-                </value>
-                <value>
-                    <fullName>TS</fullName>
-                    <default>false</default>
-                    <label>TS</label>
-                </value>
-                <value>
-                    <fullName>TN</fullName>
-                    <default>false</default>
-                    <label>TN</label>
-                </value>
-                <value>
-                    <fullName>KL</fullName>
-                    <default>false</default>
-                    <label>KL</label>
-                </value>
-                <value>
-                    <fullName>KA</fullName>
-                    <default>false</default>
-                    <label>KA</label>
-                </value>
-                <value>
-                    <fullName>GA</fullName>
-                    <default>false</default>
-                    <label>GA</label>
-                </value>
-                <value>
-                    <fullName>RJ</fullName>
-                    <default>false</default>
-                    <label>RJ</label>
-                </value>
-                <value>
-                    <fullName>MH</fullName>
-                    <default>false</default>
-                    <label>MH</label>
-                </value>
-                <value>
-                    <fullName>UP</fullName>
-                    <default>false</default>
-                    <label>UP</label>
-                </value>
-            </valueSetDefinition>
-            <valueSettings>
-                <controllingFieldValue>South</controllingFieldValue>
-                <valueName>AP</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>South</controllingFieldValue>
-                <valueName>TS</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>South</controllingFieldValue>
-                <valueName>TN</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>South</controllingFieldValue>
-                <valueName>KL</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>South</controllingFieldValue>
-                <valueName>KA</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>North</controllingFieldValue>
-                <valueName>MH</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>North</controllingFieldValue>
-                <valueName>UP</valueName>
-            </valueSettings>
-        </valueSet>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
