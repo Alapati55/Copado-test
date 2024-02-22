@@ -8,7 +8,7 @@
 public class test {
     public Static void copadoDemoMethod(String str){
         String var = 'Ok';
-        String var2 = 'how';
+        String var2 = 'now';
 		system.debug('I Am a Demo of Copado class & Method' + str + 'check');
     }
 }
