@@ -45,6 +45,11 @@
         <field>Account.product_cost__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.test_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Advisor Standard</label>
     <objectPermissions>
